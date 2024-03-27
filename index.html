@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfilio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c6e362b044.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1></h1>
+    <div id="header" class="head">
+        <div class="container">
+            <nav>
+                <img src="images/sachin-logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="imgleft"></div>
+            <div class="header-text">
+                <p>Java Full Stack Developer</p>
+                <h1>Hi, I'm <span id="animated-text">Sachin Bhosale</span> <br> From Pune</h1>
+            </div>
+        </div>
+
+    </div>
+<!--    --------------------About Me------------------------   -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg" style="height: 450px; width: 400px;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis in laboriosam quos aliquam, eveniet impedit, nisi rem dignissimos minus cupiditate voluptate rerum ex? Facere, excepturi reprehenderit impedit accusamus possimus autem.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Core Java, JDBC</span> <br>Custom Java Web Application Development.</li>
+                            <li><span>JSP, Servlet, J2EE</span> <br>Java-Based Enterprise Solutions.</li>
+                            <li><span>SQL, MySQL</span> <br>Custom Database-Driven Web Applications.</li>
+                            <li><span>HTML, CSS, JS</span> <br>Responsive Web Development Solutions.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span> <br>Java Interen</li>
+                            <li><span>J2EE</span> <br>Design Web Applications</li>
+                            <li><span>SQL</span> <br>Design Web Applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-22</span> <br>Shri Tuljabhavani College of Engineering Tuljapur <br> B.Tech in CSE </li>
+                            <li><span>2018</span> <br>Shri Chhatrapti Shivaji College Omerga <br> HSC </li>
+                            <li><span>2016</span> <br>Madhyamik Vidhyalaya Yeoti <br> SSC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--   ---------------------Serrvices-----------------------   -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-address-card"></i>
+                <h2>Full-Stack Web Development Solutions</h2>
+                <p>Experience seamless integration of front-end and back-end functionalities with our full-stack solutions. Leveraging Java, JDBC, HTML, CSS, and SQL, we craft dynamic web applications tailored to your unique requirements. From responsive user interfaces to robust server-side logic and database management, our expertise ensures precision and performance in every project. Elevate your online presence and drive success with our comprehensive full-stack development services. Unlock the potential of your digital initiatives and stay ahead in today's competitive landscape.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Custom Java Web Application Development</h2>
+                <p>Harnessing the power of Java, JDBC, SQL, and JSP, we specialize in crafting custom web applications tailored to your unique business needs. From dynamic user interfaces to robust backend systems, our team ensures seamless integration and top-notch performance. Whether you're looking to streamline operations, enhance customer experiences, or drive growth, our Java experts are here to transform your vision into reality.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Responsive Web Development Solutions</h2>
+                <p>Reach your audience anytime, anywhere with our responsive web development solutions. Using HTML, CSS, and JavaScript, we craft websites that adapt seamlessly to various devices and screen sizes, ensuring a consistent and engaging user experience across desktops, tablets, and smartphones. Whether you're building a portfolio, an e-commerce store, or a corporate website, our responsive designs prioritize performance, accessibility, and user satisfaction, helping you maximize your reach and conversions. </p>
+                <a href="">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--   ---------------------Portfolio-----------------------   -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="img">
+                <div class="layer">
+                    <h3>Leave Management System</h3>
+                    <p>A web application designed to streamline the leave management process within organizations. Employees can request leaves, managers can approve or reject them, and administrators can manage leave policies efficiently. Built using HTML, CSS, Java, and MySQL, ensuring a robust and secure platform for managing leave requests and approvals.</p>
+                    <a href="https://github.com/SachinBhosale01"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="img">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>My very own personal portfolio website, crafted with HTML, CSS, and JavaScript. It serves as a digital showcase of my professional journey, displaying my skills, projects, and achievements in a visually appealing and user-friendly manner. With a clean and intuitive design, it offers visitors a glimpse into my expertise and passions, allowing for easy navigation and exploration.</p>
+                    <a href="https://github.com/SachinBhosale01"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="img">
+                <div class="layer">
+                    <h3>Myntra Clone</h3>
+                    <p> A replication of the popular e-commerce platform Myntra, focusing on delivering a user-friendly shopping experience. Developed with HTML and CSS, this clone provides a visually appealing interface and intuitive navigation, resembling the original Myntra website while allowing users to browse, search, and purchase fashion products effortlessly.</p>
+                    <a href="https://github.com/SachinBhosale01"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See more</a>
+    </div>
+
+</div>
+
+<!--   ---------------------Contact-----------------------   -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> sachinbhosale5941@gmail.comm</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-9604962709,+91-7620374798</p>
+                    <div class="social-icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-youtube"></a>
+                        <a href="" class="fab fa-instagram"></a> 
+                        <a href="" class="fab fa-linkedin"></a>
+                    </div>
+                    <a href="images/SachinBhosale_Resume.pdf" download class="btn btn2">Download Resume / CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Write your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!--   ---------------------Footer-----------------------   -->
+<footer class="copyright">
+    <p>Copyright © 2024 Sachin. All rights reserved. </p>
+</footer>
+    <script>
+        var tablinks =  document.getElementsByClassName("tab-links");
+        var tabcontents =  document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";   
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";   
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var span = document.getElementById('animated-text');
+    var text = span.innerText;
+    span.innerText = ''; // Clear existing text
+
+    var index = 0;
+    var interval = setInterval(function() {
+        if (index < text.length) {
+            span.innerText += text.charAt(index);
+            index++;
+        } else {
+            clearInterval(interval);
+        }
+    }, 500); // Change the interval (in milliseconds) as needed
+});
+
+    </script>
+</body>
+</html>
